@@ -1,0 +1,41 @@
+.main-box{
+    position:relative;
+    height: fit-content;
+    padding:20px;
+    height:100vh;
+    width:100%;
+}
+.mainbox .sidebar-menu{
+    position:fixed;
+    height:100vh;
+    width:280px;
+    background-color: black;
+    box-shadow:0 0 6px rgba(255,255,255,0.1)
+
+}
+
+li{
+    padding:20px;
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+li:hover{
+    color: coral;
+    background-color: black;
+    width: fit-content;
+}
+i{
+    padding:10px;
+    color:blue;
+}
+a{
+    text-decoration: none;
+}
+/* body{
+    opacity:0.5;
+
+} */
+/* .main-box{
+    opacity:0.7;
+} */
